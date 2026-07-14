@@ -88,6 +88,13 @@ The optimized output appears in `dist/`.
 4. Make sure PHP `mail()` is enabled on the server.
 5. Confirm `.htaccess` is uploaded and `mod_rewrite` is on.
 
+If you deploy to the site root, leave `VITE_BASE_PATH` unset.
+If you deploy the app under a subfolder, set `VITE_BASE_PATH` to that path, for example:
+
+```bash
+VITE_BASE_PATH=/fone-ai-Spanish/
+```
+
 Final server layout:
 ```
 public_html/

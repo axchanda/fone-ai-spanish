@@ -6,7 +6,7 @@ import ThankYou from './pages/ThankYou.jsx'
 import './index.css'
 
 const routerBasename =
-  import.meta.env.BASE_URL === '/' ? '/' : import.meta.env.BASE_URL.replace(/\/$/, '')
+  '/'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
