@@ -1,11 +1,11 @@
 import { ArrowRight, Check, Mic, Cpu, Phone, BookOpen, Workflow, Link2, TrendingUp, TrendingDown } from 'lucide-react'
 import favicon from '../images/logo.png'
 import Bar from './animation'
-import logo1 from '../images/1000256638.png'
-import logo2 from '../images/1000256639.png'
-import logo3 from '../images/1000256640.jpg'
-import logo4 from '../images/1000256643.png'
-import logo5 from '../images/1000256644.png'
+import logo1 from '../images/freepbx.png'
+import logo2 from '../images/asterisk.png'
+import logo3 from '../images/vividial.jpg'
+import logo4 from '../images/3cx.png'
+import logo5 from '../images/issabel.png'
 import { useEffect, useRef } from 'react'
 
 function AICanvas() {
