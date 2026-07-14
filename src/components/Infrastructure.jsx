@@ -151,6 +151,7 @@ export default function DemoSection() {
                   <input
                     type="text"
                     value={formData.fullName}
+                    onChange={(e) => setFormData({ ...formData, fullName: e.target.value })}
                     placeholder="María Rodríguez"
                     className="w-full bg-black border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500"
                   />
@@ -163,6 +164,7 @@ export default function DemoSection() {
                   <input
                     type="text"
                     value={formData.companyName}
+                    onChange={(e) => setFormData({ ...formData, companyName: e.target.value })}
                     placeholder="Su empresa de telecomunicaciones"
                     className="w-full bg-black border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500"
                   />
@@ -176,6 +178,7 @@ export default function DemoSection() {
                     <input
                       type="email"
                       value={formData.email}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       placeholder="usted@empresa.com"
                       className="w-full bg-black border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500"
                     />
@@ -188,6 +191,7 @@ export default function DemoSection() {
                     <input
                       type="text"
                       value={formData.phone}
+                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       placeholder="+1 (555) 000-0000"
                       className="w-full bg-black border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500"
                     />
@@ -201,6 +205,7 @@ export default function DemoSection() {
                   <input
                     type="text"
                     value={formData.platform}
+                    onChange={(e) => setFormData({ ...formData, platform: e.target.value })}
                     placeholder="FreePBX, 3CX, Asterisk, Broadworks..."
                     className="w-full bg-black border border-white/10 rounded-xl px-4 py-3 text-white placeholder:text-gray-500 focus:outline-none focus:border-blue-500"
                   />
@@ -213,6 +218,7 @@ export default function DemoSection() {
                   <input
                     type="text"
                     value={formData.implementation}
+                    onChange={(e) => setFormData({ ...formData, implementation: e.target.value })}
                     className="w-full bg-black border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-blue-500"
                   />
                 </div>

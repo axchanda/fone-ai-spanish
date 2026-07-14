@@ -44,7 +44,7 @@
 }
 @font-face {
   font-family: 'Regular';
-  src: url('./font/Outfit/static/ Outfit-Regular.ttf ')  format('truetype');
+  src: url('./font/Outfit/static/Outfit-Regular.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -243,8 +243,7 @@
 
 .popup-container{
   background:
-    linear-gradient(rgba(12,7,20,.6), rgba(12,7,20,.8)),
-    url('/images/bg-pattern.jpg');
+    linear-gradient(rgba(12,7,20,.6), rgba(12,7,20,.8));
 
   background-size:cover;
   background-position:center;

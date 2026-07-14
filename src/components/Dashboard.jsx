@@ -1,4 +1,4 @@
-import dashboardImage from "../images/Hero.jpg";
+import dashboardImage from "../images/hero.jpg";
 
 export default function DashboardPreview() {
   return (
